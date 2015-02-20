@@ -6,6 +6,7 @@
   <% @users.each do |user| %>
     <li>
       <%= content_tag :strong, user.name, :class => 'pull-left text-middle' %>
+		<!--  <strong class="pull-left text-middle">John Smith</strong> -->
       <%= content_tag :span, "@"+user.username, :class => 'text-muted pad-10 text-middle' %>
       <%= follow_link(user) %>
       <div class="clearfix"></div>
