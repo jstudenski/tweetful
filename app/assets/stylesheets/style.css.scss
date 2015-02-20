@@ -1,3 +1,6 @@
+
+$white: #fff;
+
 body {
   background-attachment: scroll;
   background-clip: border-box;
@@ -152,7 +155,7 @@ nav {
   position: fixed;
   top: 0;
   z-index: 1050;
-  color: white;
+  color: $white;
   width: 100%;
   text-align: center;
 }
