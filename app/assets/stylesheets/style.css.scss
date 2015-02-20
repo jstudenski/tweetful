@@ -3,7 +3,6 @@ $white: #fff;
 $light-grey: rgb(153, 153, 153);
 $grey: rgb(51, 51, 51);
 
-
 body {
   background-attachment: scroll;
   background-clip: border-box;
@@ -53,6 +52,9 @@ nav {
   height: 21px;
   float: left;
   margin-top: 10px;
+  &:hover {
+    background-image: image-url("twetter-logo-hover.png");
+  }
 }
 
 .container {
