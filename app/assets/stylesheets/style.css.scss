@@ -45,14 +45,14 @@ nav {
 }
 
 .bird-topbar-blue {
-  background-image: image-url('twetter-logo.png');
+  background-image: image-url('tweetful_logo.png');
   background-position: 0 0;
-  width: 24px;
-  height: 21px;
+  width: 90px;
+  height: 24px;
   float: left;
   margin-top: 10px;
   &:hover {
-    background-image: image-url("twetter-logo-hover.png");
+    background-image: image-url('tweetful_logo-hover.png');
   }
 }
 
