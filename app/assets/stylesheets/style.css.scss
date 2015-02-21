@@ -2,6 +2,8 @@ $white: rgb(255, 255, 255);
 $light-grey: rgb(153, 153, 153);
 $grey: rgb(51, 51, 51);
 
+$pacifico: 'Pacifico', cursive;
+
 body {
   background-attachment: scroll;
   background-clip: border-box;
@@ -61,6 +63,11 @@ nav {
   width: 865px;
   text-align: center;
 }
+
+h1 {
+  font-family: $pacifico;
+}
+
 
 .page-container {
   bottom: 0;
