@@ -2,6 +2,8 @@ $white: rgb(255, 255, 255);
 $light-grey: rgb(153, 153, 153);
 $grey: rgb(51, 51, 51);
 
+$pacifico: 'Pacifico', cursive;
+
 
 body {
   background-attachment: scroll;
@@ -52,6 +54,7 @@ nav {
   height: 24px;
   float: left;
   margin-top: 10px;
+  margin-left: 10px;
   &:hover {
     background-image: image-url('tweetful_logo-hover.png');
   }
@@ -61,6 +64,11 @@ nav {
   width: 865px;
   text-align: center;
 }
+
+h1 {
+  font-family: $pacifico;
+}
+
 
 .page-container {
   bottom: 0;
